@@ -1,0 +1,80 @@
+table{
+    border: 2px solid blue;
+border-style: double;
+width: 100%;
+}
+th, td{
+    text-align: center;
+    vertical-align: middle;
+}
+header{
+    text-align: center;
+}
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 30px;
+
+}
+header h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: blue;
+    text-decoration: underline;
+}
+a:hover{
+    cursor: crosshair;
+}
+p.especial{
+    color: green;
+}
+p.cita{
+    font-style: italic;
+    text-align: right;
+}
+body{
+    margin: 2cm;
+    padding: 1cm;
+    background: linear-gradient(to bottom, lightgray, blue);
+}
+footer{
+ 
+   background-color: lightcoral;
+   padding: 1cm 2cm;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Courier New', Courier, monospace;
+}
+.contacto-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.contacto-link span {
+    margin-right: 10px;
+    font-size: 16px;
+}
+.contacto-img{
+    height: 50px;
+    width: auto;
+}
+.contacto-link:hover{
+    color:black;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+.contacto-link:visited{
+    color: white;
+    font-weight: bold;
+    text-decoration: double underline;
+}
